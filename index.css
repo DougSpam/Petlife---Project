@@ -191,7 +191,7 @@
   }
 
   /* Media Query para telas menores que 768px */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1028px) {
   header {
       padding: 24px;
   }
@@ -204,9 +204,13 @@
       padding: 24px;
   }
 
-  .button,
+  .button {
+      justify-content: space-between;
+      padding: 8px 16px;
+  }
+
   .button-transparent {
-      padding: 12px 24px;
+    display: flex;
   }
 
   #clinica,
